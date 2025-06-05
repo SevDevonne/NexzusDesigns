@@ -3,56 +3,115 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>NexZuS Designs</title>
+  <title>DesignCo – Creative Design Studio</title>
   <link href="https://cdn.jsdelivr.net/npm/tailwindcss@3.4.1/dist/tailwind.min.css" rel="stylesheet" />
 </head>
 <body class="font-sans text-gray-800">
+
   <!-- Navbar -->
-  <header class="bg-white shadow-md sticky top-0 z-50">
+  <header class="bg-white shadow-md fixed w-full top-0 z-50">
     <div class="max-w-6xl mx-auto px-4 py-4 flex justify-between items-center">
-      <a href="index.html" class="text-2xl font-bold text-blue-600">DesignCo</a>
+      <a href="#" class="text-2xl font-bold text-blue-600">DesignCo</a>
       <nav class="space-x-4 text-sm hidden md:block">
-        <a href="index.html" class="hover:text-blue-500">Home</a>
-        <a href="about.html" class="hover:text-blue-500">About</a>
-        <a href="services.html" class="hover:text-blue-500">Services</a>
-        <a href="portfolio.html" class="hover:text-blue-500">Portfolio</a>
-        <a href="contact.html" class="hover:text-blue-500">Contact</a>
+        <a href="#home" class="hover:text-blue-500">Home</a>
+        <a href="#about" class="hover:text-blue-500">About</a>
+        <a href="#services" class="hover:text-blue-500">Services</a>
+        <a href="#portfolio" class="hover:text-blue-500">Portfolio</a>
+        <a href="#contact" class="hover:text-blue-500">Contact</a>
       </nav>
     </div>
   </header>
 
-  <!-- Hero Section -->
-  <section class="bg-blue-50 py-20 text-center">
-    <div class="max-w-4xl mx-auto">
-      <h1 class="text-4xl md:text-6xl font-bold mb-4">most of us can design here</h1>
-      <p class="text-lg text-gray-600 mb-6">Our designs focus on you and other stuff that makes us special</p>
-      <a href="portfolio.html" class="px-6 py-3 bg-blue-600 text-white rounded-lg hover:bg-blue-700 transition">View Portfolio</a>
-    </div>
-  </section>
+  <main class="pt-20">
 
-  <!-- Features -->
-  <section class="py-16 bg-white">
-    <div class="max-w-6xl mx-auto px-4 grid grid-cols-1 md:grid-cols-3 gap-10">
-      <div>
-        <h3 class="text-xl font-semibold mb-2">First thing we do</h3>
-        <p class="text-gray-600">We do really good at this first thing</p>
+    <!-- Home -->
+    <section id="home" class="bg-blue-50 py-20 text-center">
+      <div class="max-w-4xl mx-auto">
+        <h1 class="text-4xl md:text-6xl font-bold mb-4">Creative Design Solutions</h1>
+        <p class="text-lg text-gray-600 mb-6">We help brands stand out through modern, clean design.</p>
+        <a href="#portfolio" class="px-6 py-3 bg-blue-600 text-white rounded-lg hover:bg-blue-700 transition">View Our Work</a>
       </div>
-      <div>
-        <h3 class="text-xl font-semibold mb-2">Second thing we do</h3>
-        <p class="text-gray-600">We do phenomenally at this thing</p>
+    </section>
+
+    <!-- About -->
+    <section id="about" class="py-16 bg-white">
+      <div class="max-w-4xl mx-auto text-center px-4">
+        <h2 class="text-3xl font-bold mb-4">About Us</h2>
+        <p class="text-gray-600 text-lg">We’re a creative studio passionate about storytelling through design. With a focus on branding, UI/UX, and modern web development, we craft solutions that engage and inspire.</p>
       </div>
-      <div>
-        <h3 class="text-xl font-semibold mb-2">Third thing</h3>
-        <p class="text-gray-600">Maybe we also have dome done statistics</p>
+    </section>
+
+    <!-- Services -->
+    <section id="services" class="py-16 bg-gray-50">
+      <div class="max-w-6xl mx-auto px-4 text-center">
+        <h2 class="text-3xl font-bold mb-10">What We Offer</h2>
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-8 text-left">
+          <div class="bg-white p-6 rounded-lg shadow">
+            <h3 class="text-xl font-semibold mb-2">Branding</h3>
+            <p class="text-gray-600">Logo design, visual identity, and brand systems that reflect your mission.</p>
+          </div>
+          <div class="bg-white p-6 rounded-lg shadow">
+            <h3 class="text-xl font-semibold mb-2">UI/UX Design</h3>
+            <p class="text-gray-600">User-centric interfaces that deliver seamless experiences on all platforms.</p>
+          </div>
+          <div class="bg-white p-6 rounded-lg shadow">
+            <h3 class="text-xl font-semibold mb-2">Web Development</h3>
+            <p class="text-gray-600">Modern, fast, and responsive websites built with the latest technologies.</p>
+          </div>
+        </div>
       </div>
-    </div>
-  </section>
+    </section>
+
+    <!-- Portfolio -->
+    <section id="portfolio" class="py-16 bg-white">
+      <div class="max-w-6xl mx-auto px-4 text-center">
+        <h2 class="text-3xl font-bold mb-10">Our Work</h2>
+        <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6">
+          <div class="bg-gray-100 rounded-lg overflow-hidden shadow">
+            <img src="https://via.placeholder.com/600x400" alt="Project" class="w-full h-48 object-cover">
+            <div class="p-4">
+              <h3 class="font-semibold">Project Alpha</h3>
+              <p class="text-sm text-gray-500">Brand Identity</p>
+            </div>
+          </div>
+          <div class="bg-gray-100 rounded-lg overflow-hidden shadow">
+            <img src="https://via.placeholder.com/600x400" alt="Project" class="w-full h-48 object-cover">
+            <div class="p-4">
+              <h3 class="font-semibold">Project Beta</h3>
+              <p class="text-sm text-gray-500">UI/UX Design</p>
+            </div>
+          </div>
+          <div class="bg-gray-100 rounded-lg overflow-hidden shadow">
+            <img src="https://via.placeholder.com/600x400" alt="Project" class="w-full h-48 object-cover">
+            <div class="p-4">
+              <h3 class="font-semibold">Project Gamma</h3>
+              <p class="text-sm text-gray-500">Website Development</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact -->
+    <section id="contact" class="py-16 bg-gray-50">
+      <div class="max-w-4xl mx-auto px-4 text-center">
+        <h2 class="text-3xl font-bold mb-6">Get In Touch</h2>
+        <p class="text-gray-600 mb-6">Let’s bring your vision to life. Drop us a message below.</p>
+        <form class="grid gap-4 max-w-2xl mx-auto">
+          <input type="text" placeholder="Your Name" class="border p-3 rounded w-full" required>
+          <input type="email" placeholder="Your Email" class="border p-3 rounded w-full" required>
+          <textarea rows="5" placeholder="Your Message" class="border p-3 rounded w-full" required></textarea>
+          <button type="submit" class="bg-blue-600 text-white py-3 rounded hover:bg-blue-700">Send Message</button>
+        </form>
+      </div>
+    </section>
+
+  </main>
 
   <!-- Footer -->
-  <footer class="bg-gray-100 py-8 mt-16">
-    <div class="max-w-6xl mx-auto px-4 text-center text-gray-600 text-sm">
-      &copy; 2025 NexZuS.
-    </div>
+  <footer class="bg-gray-100 py-6 text-center text-sm text-gray-600">
+    &copy; 2025 DesignCo. All rights reserved.
   </footer>
+
 </body>
 </html>
